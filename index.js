@@ -3,6 +3,7 @@ const express = require('express')
 const morgan = require('morgan')
 // App
 const app = express()
+const x = 'aditya'
 // Morgan
 app.use(morgan('tiny'))
 app.use(express.json())
